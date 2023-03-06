@@ -1,0 +1,54 @@
+<div class="box">       
+    <div class="popup">
+        <h3>Sign-in to create new account</h3><hr><br>
+    <form class="form" #registration="ngForm" (ngSubmit)="Submit(registration)">
+        <div class="form-element">
+        <select  id="salutation">salutation
+            <option>Mr.</option><option>Ms.</option> <option>Mrs.</option>
+        </select> <br> <br>
+        </div>
+            <div class="form-element">
+                <label for="name">First name </label><br>
+                <input type="ftext" name="firstname" id="name" placeholder="Enter your first name" ngModel>
+            </div><br>
+            <div class="form-element">
+                <label for="name">Last name </label><br>
+                <input type="ltext" name="lastname" id="name" placeholder="Enter your last name" ngModel>
+            </div><br>
+            <div class="form-element ">
+                <label for="email">Email Id </label><br>
+                <input type="mail" name="email" id="email" placeholder="Enter your email" ngModel>
+            </div><br>
+            <div class="form-element">
+                <label for="password">Enter your Password </label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" ngModel>
+                
+            </div><br>
+                <div class=" form-element">
+                <label for="contact">Enter your Number </label>
+                <input type="cnct" name="contact" id="contact" placeholder="Enter your Contact Number"
+                pattern="\d*" title="Numbers only please" ngModel>
+                </div><br>
+                <div class=" form-element">
+                    <label for="dob">Date of Birth: </label>&nbsp;
+                    <input type="date" name="dob" id="dob" ngModel>
+                    </div><br>
+                <div class="form-element">
+                <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender"> Male
+          <input type="radio" id="female" name="gender">Female
+          </div><br>
+                <div class= "form-element">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+                </div><br>
+                <div class="form-element">
+                    <button>Sign in</button>
+                </div><br>
+                <a href="#"><fa-icon [icon]="faGoogle" class="icon"></fa-icon></a> &nbsp;
+                <a href="#"><fa-icon [icon]="faMicrosoft" class="icon"></fa-icon></a> &nbsp;
+                <a href="#"><fa-icon [icon]="faYahoo" class="icon"></fa-icon></a>&nbsp;
+                
+               </form>
+    </div>
+</div>

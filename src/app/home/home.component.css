@@ -1,0 +1,119 @@
+.form-box{
+    width: 900px;
+    height: 500px;
+    background: rgba(70, 35, 55, 0.408);
+    color: #fff;
+    top: 515px;
+    left: 32%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+   
+}
+.heading{
+    color: wheat;
+    font-style: oblique;
+    margin-left: 20px;
+}
+.heading1{
+    color: rgb(61, 4, 25);
+    font-style: oblique;
+    margin-left: 20px;
+}
+.heading2{
+    color: bisque;
+    font-style: oblique;
+    margin-left: 20px;
+}
+.heading3{
+    color: wheat;
+    font-style: oblique;
+    margin-left: 20px;
+}
+.btn{
+    color: rgb(137, 101, 55);
+    background: rgb(65, 6, 26);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn:hover{
+    color: white;
+}
+.icon{
+    color: bisque;
+    margin-left: 20px;
+}
+    
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.login-box{
+    width: 500px;
+    height: 680px;
+    background: rgba(70, 35, 55, 0.632);
+    color: #fff;
+    top: 600px;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+   
+}
+.login-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: top;
+    
+  
+}
+.h3{
+    margin: 0;
+    padding: 0 0 20px;
+    font-style: normal;
+}
+.login-box input{
+    width: 70%;
+    
+}
+.login-box input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom:  1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+   
+}
+.login-box input[type="submit"]{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(174, 107, 150);
+    color: white;
+    border-radius: 20px;
+}
+.login-box a{
+    color:wheat;
+    text-decoration: none;
+    line-height: 20px;
+}
+.login-box a:hover{
+    color:rgb(174, 107, 150);
+}
+.login-box label{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+
+

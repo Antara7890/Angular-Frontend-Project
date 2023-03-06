@@ -1,0 +1,7 @@
+<div class="search-bar">
+        <span>Search:</span>
+    <input type="search" name="search"  placeholder="search anything" 
+    [(ngModel)]="enterSearchValue" (input)="onSearchTextChanged">
+ 
+    <fa-icon [icon]="faMagnifyingGlass" class="glass"></fa-icon>
+</div>

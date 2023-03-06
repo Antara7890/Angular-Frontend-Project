@@ -1,0 +1,51 @@
+<!--picture slider box-->
+
+<form class="form-box" >
+    <h1 class="heading">Coding is Interesting</h1><hr><br>
+    <h2 class="heading1">Learn with us,</h2>
+    <h1 class="heading2">Make Your Creer Better</h1>
+    <p class="heading3">Sed nunc mi, dictum vitae enim at, fringilla mattis elit. Praesent 
+        tincidunt massa ac imperdiet aliquet. Curabitur id turpis suscipit, 
+        congue dui nec, iaculis est. Quisque a urna euismod, dignissim tellus et,
+        pharetra mi. Aenean scelerisque nibh vitae mauris fermentum, sed vulputate
+        metus maximus.</p><br>&nbsp;&nbsp;
+        <button class="btn">Join us</button> <br><br>
+        
+        <a href="#"><fa-icon [icon]="faGoogle" class="icon"></fa-icon></a> &nbsp;
+        <a href="#"><fa-icon [icon]="faMicrosoft" class="icon"></fa-icon></a> &nbsp;
+        <a href="#"><fa-icon [icon]="faYahoo" class="icon"></fa-icon></a>&nbsp;
+</form>
+    
+
+   
+<!--log in box-->
+<div class="login-box" align="center">
+    <img src="assets/login.png" alt="login" class="login-logo" >
+
+<h3 style="border-bottom: 2px dashed #fff;">Login Here</h3>
+<form  #registration="ngForm" (ngSubmit)="Submit(registration)" >
+<p>First name</p>
+<input type="text"name="name" placeholder="Enter your First name" formControlName="user">
+<p>Last name</p>
+<input type="text"name="name" placeholder="Enter your Last name" formControlName="user">
+<p>Email Id</p>
+<input type="email"name="email" placeholder="Enter your Email Id" formControlName="email">
+<p>Password</p>
+<input type="password" name="pswd" placeholder="Enter your password" formControlName="password">
+<br><br>
+<input type="submit" name="submit" value="Login"> <br>
+<div class="wrapper">
+    <input type="checkbox" id="check">
+    <label for="check">Remember me</label>
+</div>
+
+<a routerLink="/log-in" routerLinkActive="">Forgot Password</a> <br>
+<a routerLink="/Signin" routerLinkActive="">Don't have account?</a> <br>
+
+
+
+</form>
+</div>
+
+    
+    
